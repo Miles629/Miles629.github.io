@@ -123,53 +123,72 @@
 <div class="my-3 p-0 bg-dark shadow-sm rounded-sm">
     <h4 class="border-bottom border-gray p-3 mb-0">
         <i class="fas"></i> News
-   </h4>
-   <div class="col-md-9 col-xl-10 position-static p-3 pl-md-0 textstyle">
-    <ul>
-        <li class="textstyle">
-            02/2025&nbsp; My projects, TAAT and HumanNeRF-SE, were showcased during a segment on Hubei TV covering the visit of the then Hubei Provincial Party Secretary to inspect startup company 模态跃迁. 25/2/2025
-        </li>
-        <li class="textstyle">
-            02/2025&nbsp; I joined StepFUN, dedicated to completing a human-centric foundational model for video generation. And I will work with Wenqi Shao in Shanghai AI Lab on the topic of MLLM in the future.
-        </li>
-        <li class="textstyle">
-            01/2025&nbsp; I am working on a new project about human motion generation, new dataset and task will be released soon. Any form of collaboration is welcome!
-        </li>
-        <li class="textstyle">
-            10/2024&nbsp; I submitted my PhD application to the Graduate School of Information Science and Technology at the University of Tokyo.
-        </li>
-        <li class="textstyle">
-            06/2024&nbsp; I attended <a herf="https://public.tableau.com/views/CVPR2024/CVPRtrends?:showVizHome=no">CVPR2024</a> in Seattle and I was invited to attend the <a href="https://meshcapade.com/"> Meshcapade</a> dinner at June 19th by <a href="https://www.yusun.work/">Yu Sun</a>, it was a great week.
-        </li>
-        <li class="textstyle">
-            05/2024&nbsp; Serve as an MM24 reviewer.
-        </li>
-        
-        <li class="textstyle">
-            04/2024&nbsp; I'm preparing for the ILETS test. I hope to get a 2025 fall PhD position in Singapore or Japan. Feel free to <a href="mailto:macaoyuan@whu.edu.cn">contact me</a> if you have any chances or suggestions.
-        </li>
-        <li class="textstyle">
-            04/2024&nbsp; My new research <a href="#TAAT">TAAT</a>: Think and Act from Arbitrary Texts already has a preliminary version, which can generate motions with texts processed by LLMs.
-        </li>
-        <li class="textstyle">
-            03/2024&nbsp; My first work <a href="https://generative-media.github.io/">HumanNeRF-SE</a> was accepted by CVPR2024.
-        </li>
-        <li class="textstyle">
-            06/2022&nbsp; Outstanding graduates of Wuhan University.
-        </li>
-        <li class="textstyle">
-            10/2021&nbsp; National scholarship 国家奖学金 (the seconed time). (Award Rate: 0.2% nation-wide) Ministry of Education, China.
-        </li>
-        <li class="textstyle">
-            10/2021&nbsp; First Class Scholarship (Award Rate: 5% school-wide) Wuhan University.
-        </li>
-        <li class="textstyle">
-            10/2020&nbsp; National scholarship 国家奖学金. (Award Rate: 0.2% nation-wide) Ministry of Education, China.
-        </li>
-        <li class="textstyle">
-            10/2020&nbsp; First Class Scholarship (Award Rate: 5% school-wide) Wuhan University.
-        </li>
-    </ul>
+        <button class="btn btn-link float-right" type="button" data-toggle="collapse" data-target="#newsCollapse" aria-expanded="true" aria-controls="newsCollapse">
+            Show All
+        </button>
+    </h4>
+    <div class="col-md-9 col-xl-10 position-static p-3 pl-md-0 textstyle">
+        <div class="collapse show" id="newsCollapse">
+            <ul>
+                <!-- 默认显示的10条新闻 -->
+                <div id="recentNews">
+                    <li class="textstyle">
+                        04/2025&nbsp; I accepted the invitation to serve as a reviewer for NeurIPS 2025.
+                    </li>
+                    <li class="textstyle">
+                        03/2025&nbsp; I led a large-scale data curation effort, implementing automated pipelines for data cleaning, video clip extraction and multi-modal annotations from massive datasets.
+                    </li>
+                    <li class="textstyle">
+                        02/2025&nbsp; My projects, TAAT and HumanNeRF-SE, were showcased during a segment on Hubei TV covering the visit of the then Hubei Provincial Party Secretary to inspect startup company 模态跃迁. 25/2/2025
+                    </li>
+                    <li class="textstyle">
+                        02/2025&nbsp; I joined StepFUN, dedicated to completing a human-centric foundational model for video generation. I recived a 2025 fall PhD position at University of Tokyo.
+                    </li>
+                    <li class="textstyle">
+                        01/2025&nbsp; I am working on a new project about human motion generation, new dataset and task will be released soon. Any form of collaboration is welcome!
+                    </li>
+                    <li class="textstyle">
+                        10/2024&nbsp; I submitted my PhD application to the Graduate School of Information Science and Technology at the University of Tokyo.
+                    </li>
+                    <li class="textstyle">
+                        06/2024&nbsp; I attended <a herf="https://public.tableau.com/views/CVPR2024/CVPRtrends?:showVizHome=no">CVPR2024</a> in Seattle and I was invited to attend the <a href="https://meshcapade.com/"> Meshcapade</a> dinner at June 19th by <a href="https://www.yusun.work/">Yu Sun</a>, it was a great week.
+                    </li>
+                    <li class="textstyle">
+                        05/2024&nbsp; Serve as an MM24 reviewer.
+                    </li>
+                    <li class="textstyle">
+                        04/2024&nbsp; I'm preparing for the ILETS test. I hope to get a 2025 fall PhD position in Singapore or Japan. Feel free to <a href="mailto:macaoyuan@whu.edu.cn">contact me</a> if you have any chances or suggestions.
+                    </li>
+                    <li class="textstyle">
+                        04/2024&nbsp; My new research <a href="#TAAT">TAAT</a>: Think and Act from Arbitrary Texts already has a preliminary version, which can generate motions with texts processed by LLMs.
+                    </li>
+                    <li class="textstyle">
+                        03/2024&nbsp; My first work <a href="https://generative-media.github.io/">HumanNeRF-SE</a> was accepted by CVPR2024.
+                    </li>
+                </div>
+                <!-- 折叠的历史新闻 -->
+                <div class="collapse" id="oldNews">
+                    <li class="textstyle">
+                        06/2022&nbsp; Outstanding graduates of Wuhan University.
+                    </li>
+                    <li class="textstyle">
+                        10/2021&nbsp; National scholarship 国家奖学金 (the seconed time). (Award Rate: 0.2% nation-wide) Ministry of Education, China.
+                    </li>
+                    <li class="textstyle">
+                        10/2021&nbsp; First Class Scholarship (Award Rate: 5% school-wide) Wuhan University.
+                    </li>
+                    <li class="textstyle">
+                        10/2020&nbsp; National scholarship 国家奖学金. (Award Rate: 0.2% nation-wide) Ministry of Education, China.
+                    </li>
+                    <li class="textstyle">
+                        10/2020&nbsp; First Class Scholarship (Award Rate: 5% school-wide) Wuhan University.
+                    </li>
+                </div>
+            </ul>
+            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#oldNews" aria-expanded="false" aria-controls="oldNews">
+                Show More History...
+            </button>
+        </div>
     </div>
 </div>
 
