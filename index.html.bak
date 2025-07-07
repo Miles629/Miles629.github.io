@@ -1,0 +1,374 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    
+<!-- Stylesheets -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css" integrity="sha512-P5MgMn1jBN01asBgU0z60Qk4QxiXo86+wlFahKrsQf37c9cro517WzVSPPV1tDKzhku2iJ2FVgL67wG03SGnNA==" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.1/css/academicons.min.css" integrity="sha512-b1ASx0WHgVFL5ZQhTgiPWX+68KjS38Jk87jg7pe+qC7q9YkEtFq0z7xCglv7qGIs/68d3mAp+StfC8WKC5SSAg==" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lato-font/3.0.0/css/lato-font.min.css">
+<link rel="stylesheet" href="assets/css/global.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Caoyuan Ma</title>
+    <link href="assets/images/mcy-logo.png" rel="shortcut icon">
+    <style>
+        body {
+            background-color: #121212; /* 黑色背景 */
+            color: #f0f0f0; /* 柔光白色文字 */
+            font-family: 'Arial', sans-serif; /* 默认字体 */
+        }
+        .handwriting {
+            font-family: 'Dancing Script', cursive; /* 手写体 */
+        }
+        .navbar-light .navbar-nav .nav-link {
+            color: #f0f0f0; /* 强制字体颜色 */
+        }
+        .navbar-light .navbar-nav .active>.nav-link {
+            color: #f0f0f0; /* 强制字体颜色 */
+        }
+        .navbar-light .navbar-brand {
+            color: #f0f0f0; /* 强制字体颜色 */
+        }
+        .textstyle {
+            color: #f0f0f0; /* 强制字体颜色 */
+        }
+        
+    </style>
+</head>
+
+
+
+<body class="" >
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-top mb-5 shadow-sm">
+    <div class="container">
+        <a class="navbar-brand handwriting"><strong>Caoyuan Ma</strong></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                
+                <li class="nav-item active">
+                    <a class="nav-link" href="/">Home
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link custom-text" href="misc.html">Misc
+                        
+                    </a>
+                </li>
+<!--                 <li class="nav-item ">
+                    <a class="nav-link" href="/resources">Resources
+                        
+                    </a>
+                </li> -->
+                
+            </ul>
+        </div>
+    </div>
+</nav>
+    <div class="container">
+        <div class="card border-0 shadow-sm bg-dark text-light">
+    <div class="card-body p-5">
+        <div class="row">
+            <div class="col">
+                <p class="h2 font-weight-normal handwriting">Caoyuan Ma <span>(马草原)</span></p>
+                <p class="textstyle">
+                    I am a master's student at the School of Computer Science of Wuhan University from Sep. 2022. my advisor is Professor Zheng Wang. 
+                    From July 2022 to September 2023, I was fortunate to work at JD Explore as a research intern, with mentors Wu Liu and Xincheng Liu.
+                    Throughout my studies, I have been fortunate to collaborate closely with Zhixiang Wang, Xianzeng Ma, and Lixiong Chen. I will be a PhD student at the University of Tokyo starting from Oct. 2025. See you there!
+
+                    
+                    <!-- I am a <a target="_blank" href="https://www.mext.go.jp/a_menu/koutou/ryugaku/06032818.htm">MEXT</a> funded PhD student at the <a target="_blank" href="https://www.u-tokyo.ac.jp/en/">University of Tokyo</a> with <a target="_blank" href="http://www.satoh-lab.nii.ac.jp/index.html">Shin'ichi Satoh</a> starting from Oct. 2021. 
+                    My research interest focuses on computational imaging and computational photography. Throughout my studies, I have been fortunate to collaborate closely with <a  target="_blank" href="https://researchmap.jp/yinqiangzheng?lang=en">Yinqiang Zheng</a>, <a target="_blank" href="https://jbhuang0604.github.io/">Jia-Bin Huang</a>, <a href="https://jianwang-cmu.github.io/">Jian Wang</a>, and <a href="https://www.gujinwei.org/">Jinwei Gu</a>.  In 2022, I interned with <a href="http://www.cs.columbia.edu/~nayar/">Shree Nayar</a>'s team at Snap Research. -->
+                </p>
+                <p class="textstyle">
+                    For more information, please refer to my <a target="_blank" href="https://scholar.google.com/citations?user=qx0C4CcAAAAJ&hl=en">Google Scholar</a> or <a target="_blank" href="https://miles629.github.io/misc.html">misc</a>.
+                    <!-- I completed my M.Phil at <a target="_blank" href="https://www.ntu.edu.tw/english/">National Taiwan University</a> with <a target="_blank" href="https://www.csie.ntu.edu.tw/~cyy/">Yung-Yu Chuang</a>. During my master's study, I was fortunate to work at <a target="_blank" href="https://www.nii.ac.jp/en/"> National Institute of Informatics</a> as a research intern. I also spent some time at <a target="_blank" href="https://www.ntu.edu.sg/">Nanyang Technological University</a> in Singapore. -->
+                </p>  
+
+            </div>
+            <div class="col-md-auto">
+                <figure class="figure">
+                    <img 
+                        src="assets/images/portrait.jpg" 
+                        class="figure-img img-fluid img-thumbnail" 
+                        style="height: 180px;"
+                        data-toggle="tooltip" 
+                        data-placement="top" 
+                    >
+                    <figcaption class="figure-caption text-right"></figcaption>
+                </figure>
+            </div>
+
+        </div>
+        <div class="row h3">
+            <div class="col">
+                <a class="pr-3" href="mailto:macaoyuan@whu.edu.cn">
+                    <i class="fa fa-envelope"></i></a>
+                <a class="pr-3" target="_blank" href="https://scholar.google.com.hk/citations?user=qx0C4CcAAAAJ&hl=en"><i class="fab fa-google"></i></a>
+                <!-- <a class="pr-3" target="_blank" href="https://twitter.com/lightchaserx">
+                    <i class="fab fa-twitter"></i></a> -->
+                <!-- <a class="pr-3" target="_blank" href="https://www.linkedin.com/in/zhixiang-wang-79534699/">
+                    <i class="fab fa-linkedin"></i></a> -->
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="my-3 p-0 bg-dark shadow-sm rounded-sm">
+    <h4 class="border-bottom border-gray p-3 mb-0">
+        <i class="fas"></i> News
+        <button class="btn btn-link float-right" type="button" data-toggle="collapse" data-target="#newsCollapse" aria-expanded="true" aria-controls="newsCollapse">
+            Show All
+        </button>
+    </h4>
+    <div class="col-md-9 col-xl-10 position-static p-3 pl-md-0 textstyle">
+        <div class="collapse show" id="newsCollapse">
+            <ul>
+                <!-- 默认显示的10条新闻 -->
+                <div id="recentNews">
+                    <li class="textstyle">
+                        04/2025&nbsp; I accepted the invitation to serve as a reviewer for NeurIPS 2025.
+                    </li>
+                    <li class="textstyle">
+                        03/2025&nbsp; I led a large-scale data curation effort, implementing automated pipelines for data cleaning, video clip extraction and multi-modal annotations from massive datasets.
+                    </li>
+                    <li class="textstyle">
+                        02/2025&nbsp; My projects, TAAT and HumanNeRF-SE, were showcased during a segment on Hubei TV covering the visit of the then Hubei Provincial Party Secretary to inspect startup company 模态跃迁. 25/2/2025
+                    </li>
+                    <li class="textstyle">
+                        02/2025&nbsp; I joined StepFUN, dedicated to completing a human-centric foundational model for video generation. I recived a 2025 fall PhD position at University of Tokyo.
+                    </li>
+                    <li class="textstyle">
+                        01/2025&nbsp; I am working on a new project about human motion generation, new dataset and task will be released soon. Any form of collaboration is welcome!
+                    </li>
+                    <li class="textstyle">
+                        10/2024&nbsp; I submitted my PhD application to the Graduate School of Information Science and Technology at the University of Tokyo.
+                    </li>
+                    <li class="textstyle">
+                        06/2024&nbsp; I attended <a herf="https://public.tableau.com/views/CVPR2024/CVPRtrends?:showVizHome=no">CVPR2024</a> in Seattle and I was invited to attend the <a href="https://meshcapade.com/"> Meshcapade</a> dinner at June 19th by <a href="https://www.yusun.work/">Yu Sun</a>, it was a great week.
+                    </li>
+                    <li class="textstyle">
+                        05/2024&nbsp; Serve as an MM24 reviewer.
+                    </li>
+                    <li class="textstyle">
+                        04/2024&nbsp; I'm preparing for the ILETS test. I hope to get a 2025 fall PhD position in Singapore or Japan. Feel free to <a href="mailto:macaoyuan@whu.edu.cn">contact me</a> if you have any chances or suggestions.
+                    </li>
+                    <li class="textstyle">
+                        04/2024&nbsp; My new research <a href="#TAAT">TAAT</a>: Think and Act from Arbitrary Texts already has a preliminary version, which can generate motions with texts processed by LLMs.
+                    </li>
+                    <li class="textstyle">
+                        03/2024&nbsp; My first work <a href="https://generative-media.github.io/">HumanNeRF-SE</a> was accepted by CVPR2024.
+                    </li>
+                </div>
+                <!-- 折叠的历史新闻 -->
+                <div class="collapse" id="oldNews">
+                    <li class="textstyle">
+                        06/2022&nbsp; Outstanding graduates of Wuhan University.
+                    </li>
+                    <li class="textstyle">
+                        10/2021&nbsp; National scholarship 国家奖学金 (the seconed time). (Award Rate: 0.2% nation-wide) Ministry of Education, China.
+                    </li>
+                    <li class="textstyle">
+                        10/2021&nbsp; First Class Scholarship (Award Rate: 5% school-wide) Wuhan University.
+                    </li>
+                    <li class="textstyle">
+                        10/2020&nbsp; National scholarship 国家奖学金. (Award Rate: 0.2% nation-wide) Ministry of Education, China.
+                    </li>
+                    <li class="textstyle">
+                        10/2020&nbsp; First Class Scholarship (Award Rate: 5% school-wide) Wuhan University.
+                    </li>
+                </div>
+            </ul>
+            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#oldNews" aria-expanded="false" aria-controls="oldNews">
+                Show More History...
+            </button>
+        </div>
+    </div>
+</div>
+
+<div class="my-3 p-0 bg-dark shadow-sm rounded-sm">
+    <h4 class="border-bottom border-gray p-3 mb-0">
+        <i class="fas"></i> Research interests
+   </h4>
+   Human-centric AIGC
+   <div class="col-md-9 col-xl-10 position-static p-3 pl-md-0 textstyle">
+   <ul>
+                <li><b>Generative Computational Photography</b>: leveraging generative models for image/video reconstruction and re-rendering. </li>
+                <li><b>Embodied AI</b>: Not only possess advanced cognitive abilities such as perception, reasoning, and decision-making, but also have physical bodies and the ability to interact with the environment. To create a robot like ATRI is my dream.</li>
+                <li><b>AGI</b>: A agent could perform any intellectual task that a human can, across a wide range of domains, without being explicitly programmed for each specific task. Multimodal Large Models can be used to generate not only text, but also behaviors and led to AGI. </li>
+            </ul>
+            <!-- <div class="row no-gutters position-relative"> -->
+        <div class="p-md-3">
+        <!-- <p class="textstyle small text-left">Media coverage: <a href="https://blog.metaphysic.ai/correcting-selfie-based-facial-distortion-for-psychological-and-ai-development-purposes/">Correcting 'Selfie'-Based Facial Distortion, for Psychological and AI Development Purposes</a></p> -->
+        </div>
+    <!-- </div> -->
+        </div>
+</div>
+
+<div class="my-3 p-0 bg-dark shadow-sm rounded-sm">
+    <h4 class="border-bottom border-gray p-3 mb-0">
+        <i class="fas"></i> Selected Publications 
+   </h4>
+    <div class="row no-gutters position-relative border-bottom border-gray">
+        <div class="col-md-3 col-xl-2 mb-md-0 p-md-3">
+            <img src="assets/images/humannerfse.png" class="lazy w-100 rounded-sm">
+        </div>
+        <div class="col-md-9 col-xl-10 position-static p-3 pl-md-0">
+            <h5 class="mt-0 mb-1 font-weight-normal">
+                HumanNeRF-
+                <font color="#E74C3C">S</font><font color="#9B59B6">E</font>
+                <span style="font-weight:normal">: A Simple yet Effective Approach to Animate HumanNeRF with Diverse Poses</h5></span>
+            <p class="mt-0 mb-0 small">
+            <span class="comma textstyle"><strong>Caoyuan Ma</strong></span>
+            <a class="comma textstyle" target="_blank" href="https://yulunalexliu.github.io/">Yu-Lun Liu</a>
+            <a class="comma textstyle" target="_blank" href="https://lightchaserx.github.io">Zhixiang Wang</a>
+            <a class="comma textstyle" target="_blank" href="http://liuwu.weebly.com">Wu Liu</a>
+            <a class="comma textstyle" target="_blank" href="https://xinchenliu.com">Xinchen Liu</a>
+            <a class="comma textstyle" target="_blank" href="https://wangzwhu.github.io/home/">Zheng Wang</a>
+            <p class="mt-0 mb-0 small"><i>Computer Vision and Pattern Recognition (CVPR)</i> 2024</p>
+            <p class="mt-0 mb-0 small textstyle"></p>
+            
+            <p class="small pb-0 mb-0 lh-125 textstyle abstract-links">
+                <a target="_blank" href="https://openaccess.thecvf.com/content/CVPR2024/papers/Ma_HumanNeRF-SE_A_Simple_yet_Effective_Approach_to_Animate_HumanNeRF_with_CVPR_2024_paper.pdf">paper</a> | 
+                <!-- <a target="_blank" href="https://arxiv.org/abs/2312.02232">arxiv</a> | -->
+                <a target="_blank" href="https://miles629.github.io/humannerf-se.github.io/">project page</a> |
+                <a target="_blank" href="https://github.com/Miles629/HumanNeRF-SE">code</a>
+            </p>
+            <p class="mt-0 mb-0 small textstyle"></p>
+        </div>
+
+        <!-- <div class="col-md-3 col-xl-2 mb-md-0 p-md-3">
+            <img src="assets/images/pg.jpg" class="lazy w-100 rounded-sm">
+        </div>
+        <div class="col-md-9 col-xl-10 position-static p-3 pl-md-0">
+            <h5 class="mt-0 mb-1 font-weight-normal">
+                <font color="#E74C3C">S</font><font color="#9B59B6">H</font>
+                <span style="font-weight:normal">-Neus: Colored Spherical Harmonics for Neural Implicit Surface Reconstruction</h5></span>
+            <p class="mt-0 mb-0 small">
+            <a class="comma textstyle" target="_blank" href="">Ziqiao Zhou*</a>
+            <span class="comma textstyle"><strong>Caoyuan Ma*</strong></span>
+            <a class="comma textstyle" target="_blank" href="">Runqi Wang</a>
+            <a class="comma textstyle" target="_blank" href="">Yifan Duan</a>
+            <a class="comma textstyle" target="_blank" href="https://wangzwhu.github.io/home/">Zheng Wang</a>
+            <p class="mt-0 mb-0 small"><i>Under review</i> </p>
+            <p class="mt-0 mb-0 small textstyle"></p>
+            <p class="small pb-0 mb-0 lh-125 textstyle abstract-links">
+                <a target="_blank" href="">paper under review</a> | 
+            </p>
+            <p class="mt-0 mb-0 small textstyle"></p>
+        </div> -->
+    
+        <div class="col-md-3 col-xl-2 mb-md-0 p-md-3">
+            <img src="assets/images/pg.jpg" class="lazy w-100 rounded-sm">
+        </div>
+        <div class="col-md-9 col-xl-10 position-static p-3 pl-md-0">
+            <h5 class="mt-0 mb-1 font-weight-normal", id="TAAT">
+                <font color="#FFD700">T</font><font color="#FF69B4">A</font><font color="#FF69B4">A</font><font color="#FFD700">T</font>
+                <span style="font-weight:normal">: Think and Act from Arbitrary Texts</h5></span>
+            <p class="mt-0 mb-0 small">
+            <span class="comma textstyle">Runqi Wang*</span>
+            <span class="comma textstyle"><strong>Caoyuan Ma*</strong></span>
+            <a class="comma textstyle" target="_blank" href="https://xinchenliu.com">Guopeng Li*</a>
+            <a class="comma textstyle" target="_blank" href="https://wangzwhu.github.io/home/">Zheng Wang</a>
+            <p class="mt-0 mb-0 small"><i>Arxiv</i> 2024</p>
+            <p class="mt-0 mb-0 small textstyle"></p>
+            
+            <p class="small pb-0 mb-0 lh-125 textstyle abstract-links">
+                <a target="_blank" href="https://arxiv.org/abs/2404.14745">paper</a> | 
+                <!-- <a target="_blank" href="https://arxiv.org/abs/2312.02232">arxiv</a> | -->
+                <!-- <a target="_blank" href="https://miles629.github.io/humannerf-se.github.io/">project page</a> | -->
+                <!-- <a target="_blank" href="https://github.com/Miles629/HumanNeRF-SE">code</a> -->
+            </p>
+            <p class="mt-0 mb-0 small textstyle"></p>
+        </div>
+        <div class="row no-gutters position-relative border-bottom border-gray">
+            <div class="col-md-3 col-xl-2 mb-md-0 p-md-3">
+                <img src="assets/images/pg.jpg" class="lazy w-100 rounded-sm">
+            </div>
+            <div class="col-md-9 col-xl-10 position-static p-3 pl-md-0">
+                <h5 class="mt-0 mb-1 font-weight-normal">
+                    <span style="font-weight:normal">Improving Stack Overflow question title generation with copying enhanced CodeBERT model and bi-modal information</h5></span>
+                <p class="mt-0 mb-0 small">
+                <!-- <span class="comma textstyle"><strong>Caoyuan Ma</strong></span> -->
+                <a class="comma textstyle" target="_blank" href="">Fengji Zhang</a>
+                <a class="comma textstyle" target="_blank" href="">Xiao Yu</a>
+                <a class="comma textstyle" target="_blank" href="">Jacky Keung</a>
+                <a class="comma textstyle" target="_blank" href="">Fuyang Li</a>
+                <a class="comma textstyle" target="_blank" href="">Zhiwen Xie</a>Zhen Yang
+                <a class="comma textstyle" target="_blank" href="">Zhen Yang</a>
+                <a class="comma textstyle" target="_blank" href=""> <strong>Caoyuan Ma</strong>    </a>
+                <a class="comma textstyle" target="_blank" href="">Zhimin Zhang</a>
+                <p class="mt-0 mb-0 small"><i>Information and Software Technology</i> 2022</p>
+                <p class="mt-0 mb-0 small textstyle"></p>
+                
+                <p class="small pb-0 mb-0 lh-125 textstyle abstract-links">
+                    <a target="_blank" href="https://www.sciencedirect.com/science/article/pii/S0950584922000763">paper</a> | 
+                    <!-- <a target="_blank" href="https://arxiv.org/abs/2312.02232">arxiv</a> | -->
+                    <!-- <a target="_blank" href="https://miles629.github.io/humannerf-se.github.io/">project page</a> | -->
+                    <a target="_blank" href="https://github.com/zfj1998/Copying-enhanced-CodeBERT">code</a>
+                </p>
+                <p class="mt-0 mb-0 small textstyle"></p>
+            </div>
+        </div> 
+    </div>
+
+ 
+    
+       <!-- <span class="">(* indicates equal contribution and <sup>†</sup> indicates equal advising)</span> -->
+
+    <h6 class="d-block p-3 mt-0 text-right">
+        <a href="https://scholar.google.com.hk/citations?user=qx0C4CcAAAAJ&hl=en">All publications <i class="fas fa-angle-double-right"></i></a>
+    </h6>
+</div>
+
+
+    </div>
+
+
+<a href="https://clustrmaps.com/site/1c0bq"  title="Visit tracker"><img src="//www.clustrmaps.com/map_v2.png?d=uXIJLHawEZ_nSeyodbXfyETjWNirKIOUUqv4uREhNmk&cl=ffffff" /></a>
+
+<footer class="footer">
+    <div class="container">
+        <div class="row my-3">
+            <div class="col-6">
+                <small class="textstyle"><i>Last updated: <script>document.write(new Date().toLocaleDateString('en-US', { month: 'long', year: 'numeric' }))</script></i></small>
+            </div>
+            <div class="col-6">
+                <div class="float-right textstyle"><i>Design based on <a href="https://luost.me">luost26</a></i></div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+</body>
+
+<!-- Scripts -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.9/jquery.lazy.min.js"></script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.9/jquery.lazy.plugins.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js" integrity="sha512-XKa9Hemdy1Ui3KSGgJdgMyYlUg1gM+QhL6cnlyTe2qzMCYm4nAZ1PsVerQzTTXzonUR+dmswHqgJPuwCq1MaAg==" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/github-buttons/2.14.2/buttons.min.js" integrity="sha512-OYwZx04hKFeFNYrWxIyo3atgGpb+cxU0ENWBZs72X7T9U+NoHPM1ftUn/Mfw7dRDXrqWA6M1wBg6z6fGE32aeA==" crossorigin="anonymous"></script>
+<script src="assets/js/common.js"></script>
+
+
+<script>
+ (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+ })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ ga('create', 'UA-104390830-1', 'auto');
+ ga('send', 'pageview');
+
+</script>
+
+</html>
