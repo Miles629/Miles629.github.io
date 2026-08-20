@@ -48,7 +48,13 @@ async function askProvider(env, history, message, context) {
     ? { model: config.model, store: false, max_output_tokens: 500, instructions: SYSTEM_PROMPT, input: [...history, { role: 'user', content: userContent }] }
     : { model: config.model, max_tokens: 500, messages: [{ role: 'system', content: SYSTEM_PROMPT }, ...history, { role: 'user', content: userContent }] };
   const response = await fetch(config.url, { method: 'POST', headers, body: JSON.stringify(payload), signal: AbortSignal.timeout(25_000) });
-  if (!response.ok) throw new Error(`AI provider returned HTTP ${response.status}`);
+  if (!response.ok) {
+    const providerError = new Error(`AI provider returned HTTP ${response.status}`);
+    providerError.upstreamStatus = response.status;
+    const detail = await response.text();
+    providerError.upstreamMessage = detail.slice(0, 300).replace(/\s+/g, ' ');
+    throw providerError;
+  }
   const data = await response.json();
   return config.format === 'responses' ? outputText(data) : data.choices?.[0]?.message?.content || '';
 }
@@ -69,6 +75,11 @@ export default {
       if (!answer) throw new Error('The AI service returned no answer.');
       const sources = [...new Map(matches.slice(0, 3).map(({ page }) => [page.url, { title: page.title, url: page.url }])).values()];
       return json({ answer, sources });
-    } catch (error) { console.error(error); return json({ error: 'The assistant is temporarily unavailable. Please try again later.' }, 502); }
+    } catch (error) {
+      console.error(JSON.stringify({ message: error.message, upstreamStatus: error.upstreamStatus, upstreamMessage: error.upstreamMessage }));
+      const errorBody = { error: 'The assistant is temporarily unavailable. Please try again later.' };
+      if (error.upstreamStatus) errorBody.upstreamStatus = error.upstreamStatus;
+      return json(errorBody, 502);
+    }
   }
 };
