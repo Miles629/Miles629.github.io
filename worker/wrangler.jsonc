@@ -1,0 +1,16 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "miles629-ama",
+  "main": "src/index.js",
+  "workers_dev": true,
+  "compatibility_date": "2026-08-20",
+  "compatibility_flags": ["nodejs_compat"],
+  "vars": {
+    "SITE_CONTENT_URL": "https://miles629.github.io/ai/site-content.json",
+    "AI_API_URL": "https://api.miles.eu.org/v1/chat/completions",
+    "AI_API_FORMAT": "chat_completions",
+    "AI_MODEL": "gemini-flash-latest"
+  },
+  "kv_namespaces": [{ "binding": "RATE_LIMITER", "id": "ccb09a3ef4fe4c81a1032b8769013f77" }],
+  "observability": { "enabled": true, "head_sampling_rate": 1 }
+}
