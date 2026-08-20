@@ -3,10 +3,11 @@
   if (!chat) return;
   const endpoint = chat.dataset.chatEndpoint;
   const form = chat.querySelector('form');
-  const input = chat.querySelector('textarea');
+  const input = chat.querySelector('input');
   const send = form.querySelector('button[type="submit"]');
+  const clear = chat.querySelector('.ama-chat__clear');
+  const overlay = chat.querySelector('.ama-chat__overlay');
   const messages = chat.querySelector('.ama-chat__messages');
-  const status = chat.querySelector('.ama-chat__status');
   const history = [];
   const addMessage = (text, role, sources = []) => {
     const bubble = document.createElement('div');
@@ -21,11 +22,11 @@
       });
       bubble.appendChild(list);
     }
-    messages.appendChild(bubble); messages.scrollTop = messages.scrollHeight;
+    messages.appendChild(bubble); overlay.classList.add('is-visible'); clear.hidden = false; overlay.scrollTop = overlay.scrollHeight;
   };
   const ask = async (message) => {
-    if (!endpoint || !endpoint.startsWith('https://')) { status.textContent = 'Chat is being configured'; return; }
-    addMessage(message, 'user'); input.value = ''; send.disabled = true; status.textContent = 'Thinking…';
+    if (!endpoint || !endpoint.startsWith('https://')) { addMessage('Chat is being configured.', 'assistant'); return; }
+    addMessage(message, 'user'); input.value = ''; send.disabled = true;
     try {
       const response = await fetch(endpoint, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ message, history: history.slice(-8) }) });
       const data = await response.json().catch(() => ({}));
@@ -33,10 +34,9 @@
       addMessage(data.answer, 'assistant', Array.isArray(data.sources) ? data.sources : []);
       history.push({ role: 'user', content: message }, { role: 'assistant', content: data.answer });
       if (history.length > 16) history.splice(0, history.length - 16);
-      status.textContent = 'Ready';
-    } catch (error) { addMessage(error.message || 'Something went wrong. Please try again later.', 'assistant'); status.textContent = 'Unavailable'; }
+    } catch (error) { addMessage(error.message || 'Something went wrong. Please try again later.', 'assistant'); }
     finally { send.disabled = false; input.focus(); }
   };
   form.addEventListener('submit', event => { event.preventDefault(); const message = input.value.trim(); if (message) ask(message); });
-  chat.querySelectorAll('.ama-chat__suggestions button').forEach(button => button.addEventListener('click', () => { input.value = button.textContent; form.requestSubmit(); }));
+  clear.addEventListener('click', () => { history.splice(0); messages.replaceChildren(); overlay.classList.remove('is-visible'); clear.hidden = true; input.focus(); });
 })();

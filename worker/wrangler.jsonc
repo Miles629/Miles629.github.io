@@ -9,7 +9,7 @@
     "SITE_CONTENT_URL": "https://miles629.github.io/ai/site-content.json",
     "AI_API_URL": "https://api.miles.eu.org/v1/chat/completions",
     "AI_API_FORMAT": "chat_completions",
-    "AI_MODEL": "gemini-flash-latest"
+    "AI_MODEL": "gemini-2.5-flash"
   },
   "kv_namespaces": [{ "binding": "RATE_LIMITER", "id": "ccb09a3ef4fe4c81a1032b8769013f77" }],
   "observability": { "enabled": true, "head_sampling_rate": 1 }
