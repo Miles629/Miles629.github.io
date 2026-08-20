@@ -1,0 +1,98 @@
+{
+  "version": "9ce1cef6879cf8538d2b674915cdaea521fe40a3",
+  "updatedAt": "2026-08-20T03:47:28Z",
+  "pages": [
+    {
+      "title": "Caoyuan Ma",
+      "url": "https://miles629.github.io/index.html",
+      "sections": [
+        {
+          "id": "index-1",
+          "heading": "Caoyuan Ma (马草原)",
+          "text": "I am a PhD student at the School of Information Science and Technology of the University of Tokyo. My advisor is Professor Yinqiang Zheng . My master's advisor in Wuhan University is Professor Zheng Wang . Link: Yinqiang Zheng (https://www.u-tokyo.ac.jp/focus/en/people/k0001_03600.html) Link: Zheng Wang (https://wangzwhu.github.io/home/) Link: Research (research.html) Research Link: News (news.html) News Link: Misc (misc.html) Misc"
+        }
+      ]
+    },
+    {
+      "title": "Research",
+      "url": "https://miles629.github.io/research.html",
+      "sections": [
+        {
+          "id": "research-1",
+          "heading": "Research Interests",
+          "text": "Human-centric AIGC Generative Computational Photography Embodied AI Multimodal Large Language Models AGI"
+        },
+        {
+          "id": "research-2",
+          "heading": "Publications",
+          "text": "SAI Labs, Y Bao, etc. Caoyuan Ma arXiv , 2025 Caoyuan Ma , Liuwenpu, Weichu Xie, Tian Gu, Shilei Zhao, Lingxi Min, Shuai Dong, Yuqi Xu, Ji Zhao, Ziyue Wang, Wenzheng Chang, Taiqiang Wu, Yongfu Zhu, Wenqi Shao, Yinqiang Zheng arXiv , 2026 Caoyuan Ma* , Tian Gu*, Liuwenpu, Weichu Xie, Shuai Dong, Yuqi Xu, Ji Zhao, Ziyue Wang, Wenzheng Chang, Taiqiang Wu, Yongfu Zhu, Wenqi Shao, Zheng Wang, Yinqiang Zheng arXiv , 2026 Runqi Wang*, Caoyuan Ma* , Guopeng Li*, Zheng Wang International Conference on Computer Vision (ICCV) , 2025 Haoyang Chen*, Dongfang Sun*, Caoyuan Ma* , Shiqin Wang, Kewei Zhang, Zheng Wang, Zhixiang Wang International Conference on Computer Vision (ICCV) , 2025 Runqi Wang*, Caoyuan Ma* , Jian Zhao, Hanrui Xu, Dongfang Sun, Haoyang Chen, Lin Xiong, Zheng Wang, Xuelong Li ACM International Conference on Multimedia (ACM MM) , 2024 Zhimin Zhang*, Bi'an Du*, Caoyuan Ma , Zheng Wang, Wei Hu ACM International Conference on Multimedia (ACM MM) , 2025 Yifan Duan, Jian Zhao, Junyuan Mao, Hao Wu, Jingyu Xu, Caoyuan Ma , Kai Wang, Kun Wang, Xuelong Li Neural Information Processing Systems (NeurIPS) , 2024 Caoyuan Ma , Yu-Lun Liu, Zhixiang Wang, Wu Liu, Xinchen Liu, Zheng Wang Computer Vision and Pattern Recognition (CVPR) , 2024 Fengji Zhang, Xiao Yu, Jacky Keung, Fuyang Li, Zhiwen Xie, Zhen Yang, Caoyuan Ma , Zhimin Zhang Information and Software Technology , 2022"
+        }
+      ]
+    },
+    {
+      "title": "News",
+      "url": "https://miles629.github.io/news.html",
+      "sections": [
+        {
+          "id": "news-1",
+          "heading": "News",
+          "text": "April 2026 – I left Shanghai AI Lab and joined JD Explore Institute to work on post-training for multimodal large language models, focusing on post-training performance improvement in specific domains. October 2025 – I am sponsored by Spring GX Scholarship. July 2025 – Two papers, in which I am co-author, were accepted to ACM MM. June 2025 – Two papers, in which I am co-first author, were accepted to ICCV. April 2025 – I accepted the invitation to serve as a reviewer for NeurIPS 2025. March 2025 – I led a large-scale data curation effort, implementing automated pipelines for data cleaning, video clip extraction and multi-modal annotations from massive datasets. February 2025 – My projects, TAAT and HumanNeRF-SE, were showcased during a segment on Hubei TV covering the visit of the then Hubei Provincial Party Secretary to inspect startup company 模态跃迁. February 2025 – I joined StepFUN, dedicated to completing a human-centric foundational model for video generation. I received a 2025 fall PhD position at University of Tokyo. January 2025 – I am working on a new project about human motion generation, new dataset and task will be released soon. Any form of collaboration is welcome! October 2024 – I submitted my PhD application to the Graduate School of Information Science and Technology at the University of Tokyo. June 2024 – I attended CVPR2024 in Seattle and I was invited to attend the Meshcapade dinner at June 19th by Yu Sun, it was a great week. May 2024 – Serve as an MM24 reviewer. April 2024 – I'm preparing for the ILETS test. I hope to get a 2025 fall PhD position in Singapore or Japan. Feel free to contact me if you have any chances or suggestions. April 2024 – My new research TAAT: Think and Act from Arbitrary Texts already has a preliminary version, which can generate motions with texts processed by LLMs. March 2024 – My first work HumanNeRF-SE was accepted by CVPR2024. June 2022 – Outstanding graduates of Wuhan University. October 2021 – National scholarship 国家奖学金 (the second time). (Award Rate: 0.2% nation-wide) Ministry of Education, China. October 2021 – First Class Scholarship (Award Rate: 5% school-wide) Wuhan University. October 2020 – National scholarship 国家奖学金. (Award Rate: 0.2% nation-wide) Ministry of Education, China. October 2020 – First Class Scholarship (Award Rate: 5% school-wide) Wuhan University."
+        }
+      ]
+    },
+    {
+      "title": "Misc",
+      "url": "https://miles629.github.io/misc.html",
+      "sections": [
+        {
+          "id": "misc-1",
+          "heading": "Activities",
+          "text": "NeurIPS25, ICME25, CVPR25, ACM MM23, ACM MM24, ACM MM 25 TIP, TMM, MTA, ISCAS Assist in managing AIM-Lab affairs"
+        },
+        {
+          "id": "misc-2",
+          "heading": "Experience",
+          "text": "University of Tokyo - PhD Hedra Shanghai AI Lab Stepfun JD Research Academy - Intelligent Computing Group Wuhan University - master Noitom Wuhan University - bachelor"
+        },
+        {
+          "id": "misc-3",
+          "heading": "Awards (selected)",
+          "text": "Spring GX Scholarship National Scholarship National Scholarship First prize - National Undergraduate IT Design Contest First prize - National graduate AI Contest"
+        }
+      ]
+    },
+    {
+      "title": "Location",
+      "url": "https://miles629.github.io/location.html",
+      "sections": [
+        {
+          "id": "location-1",
+          "heading": "Location",
+          "text": "I am now living in Tokyo, Bunkyo City. I am studying at University of Tokyo,Information Science and Technology (情報理工学系), Mechano-Informatics (知能機械情報学) University of Tokyo, Faculty of Engineering 7 Chome-3-1 Hongo, Bunkyo City, Tokyo 113-8656, Japan Link: University of Tokyo, Faculty of Engineering (https://www.u-tokyo.ac.jp/en/)"
+        }
+      ]
+    },
+    {
+      "title": "Office Hours",
+      "url": "https://miles629.github.io/officehours.html",
+      "sections": [
+        {
+          "id": "officehours-1",
+          "heading": "Office Hours",
+          "text": "Under normal circumstances, you can reach me on weekdays between 8:00 a.m. and 12:00 midnight (Tokyo time). Please note that email responses are usually subject to some delay. If you need timely communication, you may arrange an online meeting via email or request my instant messaging contact details. My email is , any communication is welcome. Link: Research (research.html) Research Link: News (news.html) News Link: Misc (misc.html) Misc"
+        }
+      ]
+    },
+    {
+      "title": "CV",
+      "url": "https://miles629.github.io/assets/CV-Mcy.pdf",
+      "sections": [
+        {
+          "id": "cv-1",
+          "heading": "Curriculum Vitae",
+          "text": "Caoyuan Ma × +86 13146496689 Wuhan University ć macaoyuan@whu.edu.cn Computer Science and Technology a GitHub: Miles629 a https://miles629.github.io Education • The University of Tokyo 2025.10-now Information Science and Technology - MLLM Safety PhD • Wuhan University - School of Computer and Science 2022.9-2025.6 Computer Science and Technology - Human-centric AIGC & 3D Master • Wuhan University - School of Computer and Science 2018.9-2022.7 Software Engineering - GPA 3.87/4.0, Top 1% in 2 academic years Undergraduate Experience • Intern Experience 2022.09-now Since 2022, I have participated in 7 high-intensity internship programs, spanning diverse settings including academic research, algorithm R&D, and engineering deployment. From 2022 to 2024, despite having no prior experience, I led from scratch the construction of a multi-camera array infrastructure for a joint research project between Noitom and JD Group, under the mentorship of Liu Wu (now a specially appointed professor at USTC). After completing the project, I published a CVPR paper as the sole ﬁrst author. In 2025, I joined TeleAI to conduct early R&D on cross-domain applications of large models. At Stepfun, I led (4 members in total) the development of a large-scale video data curation pipeline, processing more than 30 TB of video data. I then joined the U.S. company Hedra to work on human-centric long-video generation models, work on stabilizing the generative distribution based on Self-forcing. I also participated at Shanghai AI LABin developing safety reinforcement for large models nchain-of-thought reasoning. In April 2026, I left Shanghai AI LAB and joined the JD Explore Academy, where I have been focusing on post-training multimodal large models for embodied spatial perception iimproving their ability to reason about spatial relations. Interests • Research More Info:https://miles629.github.io/research.html I have been involved in research across many diﬀerent areas, including 3D vision, 3D human modeling, motion generation, video generation, and large-model research. This is closely tied to my extensive internship experience: I enjoy exploring unfamiliar topics and breaking them down into submodules to make them explainable, and then reﬁne them. At present, my primary focus is on the post-training(alignment) of large models. • Learn Something New I like exploring ﬁelds horizontally. I nm currently a skilled cook and have a basic command of a second foreign language. In past internships, I usually volunteered to serve as the project lead to develop my ability to coordinate resources with others. I nve gradually shifted from being introverted to extroverted. I n ve also experimented with game cheating(oﬄine), computer networks, website development, tennis, share investment, and instruments. Awards • Scholarship: National Scholarship * 2 (2/208), First Class Scholarship * 2 (Top 5%), Spring GX • Honor: Outstanding graduates of Wuhan University (Top 10%) • Competition: Meritorious Winner of Mathematical Contest in Modeling(MCM) First prize of National Undergraduate IoT Contest."
+        }
+      ]
+    }
+  ]
+}

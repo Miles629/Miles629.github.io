@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
     <title>Caoyuan Ma</title>
     <link href="assets/css/pascalmichaillat.css" rel="stylesheet">
+    <link href="assets/css/chat.css" rel="stylesheet">
 </head>
 <body class="list" id="top">
     <main class="main">
@@ -60,9 +61,33 @@
                     <a class="button" href="news.html"><span class="button-inner">News</span></a>
                     <a class="button" href="misc.html"><span class="button-inner">Misc</span></a>
                 </div>
+                <section class="ama-chat" aria-labelledby="ama-title" data-chat-endpoint="https://miles629-ama.miles629-chat.workers.dev/chat">
+                    <div class="ama-chat__heading">
+                        <div>
+                            <h2 id="ama-title">Ask me anything</h2>
+                            <p>Ask about my research, publications, experience, or recent activities.</p>
+                        </div>
+                        <span class="ama-chat__status" aria-live="polite">Ready</span>
+                    </div>
+                    <div class="ama-chat__suggestions" aria-label="Suggested questions">
+                        <button type="button">What are Caoyuan's current research interests?</button>
+                        <button type="button">Which papers has Caoyuan published?</button>
+                        <button type="button">What has Caoyuan been working on recently?</button>
+                    </div>
+                    <div class="ama-chat__messages" aria-live="polite" aria-label="Conversation">
+                        <div class="ama-chat__message ama-chat__message--assistant">Hi! I am an AI assistant for Caoyuan Ma's website. I can answer from the public information on this site and cite the relevant pages.</div>
+                    </div>
+                    <form class="ama-chat__form">
+                        <label class="sr-only" for="ama-message">Your question</label>
+                        <textarea id="ama-message" name="message" rows="2" maxlength="1000" placeholder="Ask a question…" required></textarea>
+                        <button type="submit">Send</button>
+                    </form>
+                    <p class="ama-chat__privacy">Messages are processed by the site assistant and are not stored by this website. Please do not share sensitive personal information.</p>
+                </section>
             </div>
         </div>
     </main>
 
+    <script src="assets/js/chat.js" defer></script>
 </body>
 </html>
